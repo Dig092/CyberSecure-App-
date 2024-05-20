@@ -9,8 +9,8 @@ const MainBar = () => {
         <h1 className="text-4xl font-semibold">Welcome to CyberSecure!</h1>
       </div>
       <div className="flex gap-12 pr-8">
-        <img className="w-7 h-7" src={email} alt="" />
-        <img className="w-7 h-7" src={notification} alt="" />
+        <img className="w-7 h-7 cursor-pointer" src={email} alt="" />
+        <img className="w-7 h-7 cursor-pointer" src={notification} alt="" />
       </div>
     </div>
   );
